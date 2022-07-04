@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-color: #1e77e2;
+  --secondary-color: #172a45;
+}
+
+.App {
+  margin-top: 10px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  padding: 45px;
+
+  background-color: white;
+}
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: felx-start;
+  transition: 1s;
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*
+ * indi-components
+ */
+
+.name h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 46px;
+  color: var(--primary-color);
+  font-weight: 800;
+  animation: fromTop 1s ease-in;
+}
+
+@media screen and (max-width: 500px) {
+  .name h1 {
+    font-size: 40px;
+  }
+}
+
+.title h1 {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #2a2a2e;
+  font-weight: 500;
+  animation: fromTop 1s ease-out;
+}
+
+.links-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+  transition: 1s;
+  animation: fromTop 1s ease-in-out;
+}
+
+@keyframes fromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .links-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.link img {
+  height: 17px;
+  width: 17px;
+}
+
+.link p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 11.5px;
+  color: #49494f;
+  font-weight: 500;
+}
+
+/*
+ * indi-components ------------ Main
+ */
+
+ul {
+  position: relative;
+  list-style: none;
+  margin-left: 0;
+  padding-left: .7em;
+}
+
+ul li:before {
+  content: '•';
+  color: #898989;
+  position: absolute;
+  left: 0;
+}
+
+.main-title {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Merriweather', serif;
+  margin-top: 20px;
+}
+
+.main-sub-title {
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color: var(--secondary-color);
+}
+
+.main-ss-title {
+  font-size: 9.3px;
+  font-weight: 700;
+  white-space: pre;
+  margin-top: 5px;
+  font-family: 'Nunito', sans-serif;
+  color: #726a8e;
+}
+
+.main-sub-title .tag {
+  color: #726a8e;
+  font-family: 'Nunito', sans-serif;
+}
+
+.main-description {
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #726a8e;
+  font-family: 'Nunito', sans-serif;
+}
+
+.right-section {
+  margin-left: -20px;
+}
+
+
+#main-description-lineheight {
+  line-height: 1;
+}
+
+
+/*
+ * indi-components END
+ */
+
+.left-section {
+  /* animate on laod from left*/
+  animation: fadeInLeft 1s;
+}
+
+.right-section {
+  /* add a delay of 1s*/
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
