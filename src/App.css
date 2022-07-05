@@ -9,7 +9,7 @@
 
 .App {
   margin-top: 10px;
-  width: 800px;
+  width: 874px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -23,6 +23,7 @@
 .main {
   margin-top: 20px;
   display: flex;
+  gap: 5px;
   justify-content: felx-start;
   transition: 1s;
 }
@@ -169,11 +170,6 @@ ul li:before {
   font-family: 'Nunito', sans-serif;
 }
 
-.right-section {
-  margin-left: -20px;
-}
-
-
 #main-description-lineheight {
   line-height: 1;
 }
@@ -202,5 +198,59 @@ ul li:before {
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+.download-button {
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+
+.download-button img {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .download-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .download-button img {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+.download-button {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+}
+
+/* on hover make the img inside download-button class fadeinfrom top */
+.download-button:hover img {
+  animation: downloadAnimation .5s ease-in-out;
+}
+
+@keyframes downloadAnimation {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

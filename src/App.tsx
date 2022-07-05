@@ -1,6 +1,7 @@
 import Header from './components/header';
 import Left from './components/left';
 import Right from './components/right';
+import DownloadButton from './components/downloadbutton';
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Left />
         <Right />
       </div>
+      <DownloadButton />
     </div>
   )
 }
