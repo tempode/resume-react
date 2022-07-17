@@ -7,7 +7,9 @@ const Links = () => {
                 return (
                     <div key={index} className="link">
                         <img src={link.url} alt={link.name} />
-                        <p>{link.value}</p>
+                        <a href={link.link} target="_blank">
+                            <p>{link.value}</p>
+                        </a>
                     </div>
                 );
             })}

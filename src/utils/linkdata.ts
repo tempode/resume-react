@@ -7,6 +7,7 @@ interface LinkData {
     name: string;
     value: string;
     url: string;
+    link?: string;
 }
 
 export const linkData: LinkData[] = [
@@ -23,11 +24,13 @@ export const linkData: LinkData[] = [
     {
         name: "linkedin",
         value: "linkedin.com/in/udhaybegyall",
-        url: LinkedinIcon
+        url: LinkedinIcon,
+        link: "https://www.linkedin.com/in/udhaybegyall"
     },
     {
         name: "github",
         value: "github.com/udhaybegyall",
-        url: GithubIcon
+        url: GithubIcon,
+        link: "https://github.com/udhaybegyall"
     }
 ];
