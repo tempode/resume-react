@@ -8,7 +8,10 @@ const Description = ({ description, showbullet, lineheight }: DescriptionProps) 
 
     return (
         showbullet ?
-            <li className="main-description" id={lineheight ? "main-description-lineheight" : ""}>{description}</li> :
+            <li className="main-description" id={lineheight ? "main-description-lineheight" : ""}>
+                {description}
+            </li>
+            :
             <p className="main-description">{description}</p>
     )
 }

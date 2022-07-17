@@ -11,12 +11,12 @@ const cocirriculars = () => {
             {coCurriculars.map((coCurricular, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={coCurricular.title} tag="" />
+                        <SubTitle title={coCurricular.title} tag="" linesplit={false} />
                         {
                             coCurricular.description.map((description, index) => {
                                 return (
                                     <ul key={index}>
-                                        <Description description={description} showbullet lineheight />
+                                        <Description description={description} showbullet lineheight={false} />
                                     </ul>
                                 )
                             })

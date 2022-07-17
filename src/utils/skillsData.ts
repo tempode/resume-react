@@ -6,11 +6,7 @@ interface Skill {
 export const skillsData: Skill[] = [
     {
         title: "Programming Languages",
-        skills: "Java, C, C++, JavaScript(ES6), * TypeScript, Rust, Go, Python"
-    },
-    {
-        title: "Web Technologies",
-        skills: "HTML5, CSS, MarkDown *"
+        skills: "Java, C, C++, JavaScript(ES6), Rust, * TypeScript, Go, Python, HTML, CSS,* GraphQL, Markdown"
     },
     {
         title: "Libraries & Frameworks",

@@ -22,3 +22,7 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-description {
+  line-height: 1.1;
+}

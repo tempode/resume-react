@@ -12,7 +12,7 @@ const Exprience = () => {
             {exprience.map((exprience, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={exprience.title} tag={exprience.company} />
+                        <SubTitle title={exprience.title} tag={exprience.company} linesplit={false} />
                         <Sstitle title={exprience.date} />
                         {exprience.discription.map((description, index) => {
                             return (

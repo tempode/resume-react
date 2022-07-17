@@ -1,13 +1,14 @@
 import Skills from './indi-components/main/skills';
 import Intrests from './indi-components/main/intrests';
-import Certifications from './indi-components/main/certifications';
+import Coursework from './indi-components/main/coursework';
+import Education from "./indi-components/main/education";
 
 const Right = () => {
     return (
         <div className="right-section">
+            <Education />
             <Skills />
-            <Certifications />
-            <Intrests />
+            <Coursework />
         </div>
     )
 }

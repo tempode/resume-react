@@ -12,7 +12,7 @@ const Skills = () => {
             {skillsData.map((skill, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={skill.title} tag={""} />
+                        <SubTitle title={skill.title} tag={""} linesplit={false} />
 
                         {
                             split(skill.skills).map((skill: string, index: number) => {

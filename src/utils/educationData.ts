@@ -6,13 +6,13 @@ interface EducationData {
 
 export const educationData: EducationData[] = [
     {
-        degree: "MCA(hons.)",
-        institute: " @ Lovely Professional University",
-        year: "Aug 2020 - Present",
+        degree: "Masters in Computer Applications",
+        institute: "@ LPU University",
+        year: "Aug 2021 - Present",
     },
     {
-        degree: "BCA(hons.)",
-        institute: " @ Lovely Professional University",
-        year: "Aug 2018 - May 2020",
+        degree: "Bachelors in Computer Applications",
+        institute: "@ LPU University",
+        year: "Aug 2018 - May 2021",
     },
 ]

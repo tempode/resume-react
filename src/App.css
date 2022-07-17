@@ -4,12 +4,12 @@
 
 :root {
   --primary-color: #1e77e2;
-  --secondary-color: #172a45;
+  --secondary-color: #172a45d5;
 }
 
 .App {
   margin-top: 10px;
-  width: 874px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
@@ -28,10 +28,14 @@
   transition: 1s;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .main {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .right-section {
+    margin-top: -10px;
   }
 }
 
@@ -97,7 +101,7 @@
 
 .link {
   display: flex;
-  gap: 10px;
+  gap: 4px;
   align-items: center;
 }
 
@@ -140,7 +144,7 @@ ul li:before {
 }
 
 .main-sub-title {
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 12px;
   font-family: 'Nunito', sans-serif;
   font-weight: 800;
@@ -180,6 +184,7 @@ ul li:before {
  */
 
 .left-section {
+  width: 480px;
   /* animate on laod from left*/
   animation: fadeInLeft 1s;
 }
@@ -187,6 +192,12 @@ ul li:before {
 .right-section {
   /* add a delay of 1s*/
   animation: fadeInLeft 1s ease-in-out;
+}
+
+@media screen and (max-width: 650px) {
+  .left-section {
+    width: 100%;
+  }
 }
 
 @keyframes fadeInLeft {

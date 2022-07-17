@@ -23,11 +23,27 @@ export const exprience = [
     }
 ]
 
-export const certifications = [
-    "Java Certificate @ HackerRank",
-    "React Certificate @ HackerRank",
-    "Automation and Bot Creation @ Udemy",
-    "Data Structures and Algorithms @ Udemy"
+export const coursework = [
+    {
+        title: "GRADUATE",
+        discription: [
+            "Big Data",
+            "Cloud Computing",
+            "Robotic Programming",
+            "Aspect-oriented Programming",
+            "Advanced Data Structures and Algorithms",
+        ]
+    },
+    {
+        title: "UNDERGRADUATE",
+        discription: [
+            "Operating Systems",
+            "Data Visualization",
+            "Predictive Analytics",
+            "Data Science Toolbox",
+            "Computer architecture and design",
+            "Information Security and Privacy",
+            "Server Side Development with Node.js",
+        ]
+    }
 ]
-
-export const interests = "Photo-Manipulation, Photography, * Reading, Traveling, Gaming";
