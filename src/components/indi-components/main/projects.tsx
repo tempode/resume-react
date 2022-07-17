@@ -12,7 +12,7 @@ const Projects = () => {
             {projectsData.map((project, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={project.title} tag={project.type} />
+                        <SubTitle title={project.title} tag={project.type} linesplit={false} />
                         <Sstitle title={project.technologies} />
                         <ul>
                             {

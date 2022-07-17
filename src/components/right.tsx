@@ -1,5 +1,4 @@
 import Skills from './indi-components/main/skills';
-import Intrests from './indi-components/main/intrests';
 import Coursework from './indi-components/main/coursework';
 import Education from "./indi-components/main/education";
 
