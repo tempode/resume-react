@@ -3,18 +3,18 @@ import SubTitle from "./sub-title";
 import Sstitle from "./sstitle";
 import Description from "./discription";
 
-import { exprience } from '../../../utils/data';
+import { internship } from '../../../utils/data';
 
-const Exprience = () => {
+const Internship = () => {
     return (
         <div>
-            <Title title="Experience" />
-            {exprience.map((exprience, index) => {
+            <Title title="Internship" />
+            {internship.map((internship, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={exprience.title} tag={exprience.company} linesplit={false} />
-                        <Sstitle title={exprience.date} />
-                        {exprience.discription.map((description, index) => {
+                        <SubTitle title={internship.title} tag={internship.company} linesplit={false} />
+                        <Sstitle title={internship.date} />
+                        {internship.discription.map((description, index) => {
                             return (
                                 <div key={index}>
                                     <ul>
@@ -30,4 +30,4 @@ const Exprience = () => {
     )
 }
 
-export default Exprience;
+export default Internship;

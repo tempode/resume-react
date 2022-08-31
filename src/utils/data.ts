@@ -1,5 +1,19 @@
 export const exprience = [
     {
+        title: "Subject Mater Expert (SME)",
+        company: " @ Techcurators",
+        date: "June 2022 - August 2022",
+        discription: [
+            "Created 70+ scenario based MCQs and Logic Box questions on Rust.",
+            "Scenario based MCQs (25+) on DevSecOps topics.",
+            "Created 10 Logic Box questions on Tableau.",
+            "Worked with a team of 6 people.",
+        ]
+    }
+]
+
+export const internship = [
+    {
         title: "Rust Intern",
         company: " @ Kootlabs",
         date: "April 2022 - June 2022",
@@ -10,17 +24,6 @@ export const exprience = [
             "Created a CRUD REST API using Actix-web and MongoDB.",
         ]
     },
-    {
-        title: "Subject Mater Expert (SME)",
-        company: " @ Techcurators",
-        date: "June 2022 - Present",
-        discription: [
-            "Created 70+ scenario based MCQs and Logic Box questions on Rust.",
-            "Scenario based MCQs (25+) on DevSecOps topics.",
-            "Created 10 Logic Box questions on Tableau.",
-            "Worked with a team of 6 people.",
-        ]
-    }
 ]
 
 export const coursework = [
