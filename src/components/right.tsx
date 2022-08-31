@@ -5,8 +5,8 @@ import Education from "./indi-components/main/education";
 const Right = () => {
     return (
         <div className="right-section">
-            <Education />
             <Skills />
+            <Education />
             <Coursework />
         </div>
     )

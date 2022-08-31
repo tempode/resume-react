@@ -8,7 +8,7 @@ import { exprience } from '../../../utils/data';
 const Exprience = () => {
     return (
         <div>
-            <Title title="Experience" />
+            <Title title="Internship" />
             {exprience.map((exprience, index) => {
                 return (
                     <div key={index}>
