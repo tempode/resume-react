@@ -4,9 +4,9 @@ export const exprience = [
         company: " @ Kootlabs",
         date: "April 2022 - June 2022",
         discription: [
-            "Learned about Rust basics like ownership, lifetimes, and borrowing, etc.",
-            "Worked with a team of 3 people.",
-            "Taught a new intern about Rust fundamentals and APIs",
+            "Gained knowledge in Rust ownership, lifetimes, and borrowing",
+            "Worked in a team of 3 people on decentralized wallet mypassid.",
+            "Taught a new intern about Rust fundamentals and APIs.",
             "Created a CRUD REST API using Actix-web and MongoDB.",
         ]
     },
@@ -16,7 +16,7 @@ export const exprience = [
         date: "June 2022 - Present",
         discription: [
             "Created 70+ scenario based MCQs and Logic Box questions on Rust.",
-            "Scenario based MCQs (25+) on DevSecOps topics.",
+            "Designed scenario-based MCQs (25+) on DevSecOps topics.",
             "Created 10 Logic Box questions on Tableau.",
             "Worked with a team of 6 people.",
         ]

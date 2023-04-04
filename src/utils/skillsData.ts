@@ -10,7 +10,7 @@ export const skillsData: Skill[] = [
     },
     {
         title: "Libraries & Frameworks",
-        skills: "React, Redux, Node, Express, * NextJs"
+        skills: "React, Redux, Node, Express, * NextJs, Actix-Web"
     },
     {
         title: "Tools & Platforms",

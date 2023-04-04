@@ -32,8 +32,6 @@ export const projectsData: Project[] = [
         technologies: "Python",
         description: [
             "A Natural Language Processing tool to generate text.",
-            "The script has a dropdown menu to select the generation algorithm.",
-            "Predicts the next word based on the previous word using a Markov chain."
-        ]
+            "Used a Markov chain to predict the next word based on the previous word.",        ]
     }
 ];
