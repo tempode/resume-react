@@ -11,8 +11,8 @@ const Exprience = () => {
             <Title title="Experience" />
             {exprience.map((exprience, index) => {
                 return (
-                    <div key={index}>
-                        <SubTitle title={exprience.title} tag={exprience.company} linesplit={false} />
+                    <div className="experience-container experience-item" key={index}>
+                        <SubTitle title={exprience.title} tag={exprience.company} linesplit={false} bottomMargin={false}/>
                         <Sstitle title={exprience.date} />
                         {exprience.discription.map((description, index) => {
                             return (

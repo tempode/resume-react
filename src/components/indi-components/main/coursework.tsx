@@ -11,7 +11,7 @@ const Certifications = () => {
             {coursework.map((course, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={course.title} tag={""} linesplit={false} />
+                        <SubTitle title={course.title} tag={""} linesplit={false} bottomMargin />
                         {
                             course.discription.map((description, index) => {
                                 return (

@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header>
             <Name name="Sachin Kumar" />
-            <Title title="Full-Stack Software Engineer"/>
+            <Title title="Software Engineer"/>
             <Links />
         </header>
     );

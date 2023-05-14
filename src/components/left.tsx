@@ -6,8 +6,8 @@ const Left = () => {
     return (
         <div className="left-section">
             <Exprience />
-            <Projects />
-            <Cocirriculars />
+            {/* <Projects /> */}
+            {/* <Cocirriculars /> */}
         </div>
     )
 }

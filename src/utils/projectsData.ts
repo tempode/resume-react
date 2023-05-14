@@ -11,9 +11,9 @@ export const projectsData: Project[] = [
         type: " - CLI Tool",
         technologies: "JavaScript/Python",
         description: [
-            "A Command line based tool to delete multiple files in a directory.",
-            "Recursively deletes files in a directory based on a given filetype.",
-            "Prints tree structure of deleted files as well as the time taken."
+             // more points can be added show it in a bullet points.
+            "CLI tool that deletes multiple files in a directory based on the file type."
+            // "CLI tool that deletes recursively deletes multiple files based on the file type. Generates a tree structure of deleted files and execution time for better user experience."
         ]
     },
     {
@@ -21,9 +21,7 @@ export const projectsData: Project[] = [
         type: " - WEB App",
         technologies: "ReactJs/TypeScript/Redux",
         description: [
-            "A web app to visualise the sorting algorithms(5).",
-            "A clean and responsive user interface.",
-            "Makes use of Redux for state management and TyeScript for type checking."
+            "Web application that visualizes sorting algorithms. User-friendly, responsive, and interactive interface."
         ]
     },
     {
@@ -31,7 +29,7 @@ export const projectsData: Project[] = [
         type: " - NLP",
         technologies: "Python",
         description: [
-            "A Natural Language Processing tool to generate text.",
-            "Used a Markov chain to predict the next word based on the previous word.",        ]
+            "Natural Language Processing tool that generates text by predicting the next word based on the previous word, using a Markov chain algorithm."
+        ]
     }
 ];

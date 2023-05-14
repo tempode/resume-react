@@ -12,7 +12,7 @@ const Description = ({ description, showbullet, lineheight }: DescriptionProps) 
                 {description}
             </li>
             :
-            <p className="main-description">{description}</p>
+            <p className="main-description-if-p">{description}</p>
     )
 }
 

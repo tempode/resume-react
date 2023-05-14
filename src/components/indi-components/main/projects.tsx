@@ -12,17 +12,15 @@ const Projects = () => {
             {projectsData.map((project, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={project.title} tag={project.type} linesplit={false} />
+                        <SubTitle title={project.title} tag={project.type} linesplit={false} bottomMargin={false}/>
                         <Sstitle title={project.technologies} />
-                        <ul>
-                            {
-                                project.description.map((discription, index) => {
-                                    return (
-                                        <Discription key={index} description={discription} showbullet lineheight />
-                                    )
-                                })
-                            }
-                        </ul>
+                        {
+                            project.description.map((discription, index) => {
+                                return (
+                                    <Discription key={index} description={discription}  />
+                                )
+                            })
+                        }
                     </div>
                 )
             })}

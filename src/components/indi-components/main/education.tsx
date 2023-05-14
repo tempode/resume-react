@@ -11,7 +11,7 @@ const Education = () => {
             {educationData.map((item, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={item.degree} tag={item.institute} linesplit />
+                        <SubTitle title={item.degree} tag={item.institute} linesplit bottomMargin={false}/>
                         <Sstitle title={item.year} />
                     </div>
                 )

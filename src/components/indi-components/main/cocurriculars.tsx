@@ -11,7 +11,7 @@ const cocirriculars = () => {
             {coCurriculars.map((coCurricular, index) => {
                 return (
                     <div key={index}>
-                        <SubTitle title={coCurricular.title} tag="" linesplit={false} />
+                        <SubTitle title={coCurricular.title} tag="" linesplit={false} bottomMargin={false}/>
                         {
                             coCurricular.description.map((description, index) => {
                                 return (

@@ -3,19 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --primary-color: #1e77e2;
+  --primary-color: #1d4ed8;
   --secondary-color: #172a45d5;
 }
 
 .App {
-  margin-top: 10px;
-  width: 800px;
+  /* margin-top: 10px; */
+  width: 730px;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+  /* padding-right: 20px;
+  padding-left: 20px; */
 
-  padding: 45px;
+  padding: 10px;
 
   background-color: white;
 }
@@ -23,7 +23,7 @@
 .main {
   margin-top: 20px;
   display: flex;
-  gap: 5px;
+  gap: 50px;
   justify-content: felx-start;
   transition: 1s;
 }
@@ -124,13 +124,13 @@
 ul {
   position: relative;
   list-style: none;
-  margin-left: 0;
+  margin-left: 5px;
   padding-left: .7em;
 }
 
 ul li:before {
   content: '•';
-  color: #898989;
+  color: #435062;
   position: absolute;
   left: 0;
 }
@@ -140,7 +140,7 @@ ul li:before {
   font-size: 16px;
   font-weight: 800;
   font-family: 'Merriweather', serif;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .main-sub-title {
@@ -149,6 +149,10 @@ ul li:before {
   font-family: 'Nunito', sans-serif;
   font-weight: 800;
   color: var(--secondary-color);
+}
+
+#main-sub-title-bottom-margin {
+  margin-bottom: 3px;
 }
 
 .main-ss-title {
@@ -161,21 +165,31 @@ ul li:before {
 }
 
 .main-sub-title .tag {
-  color: #726a8e;
+  color: #435062;
   font-family: 'Nunito', sans-serif;
 }
 
 .main-description {
   margin-top: 5px;
-  font-size: 11px;
+  font-size: 11.5px;
   font-weight: 500;
-  line-height: 1.3;
-  color: #726a8e;
+  color: #383941;
   font-family: 'Nunito', sans-serif;
 }
 
+.main-description-if-p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #383941;
+  font-family: 'Nunito', sans-serif;
+}
+
+.main-description-skill {
+  margin-top: 2px;
+}
+
 #main-description-lineheight {
-  line-height: 1;
+  line-height: 1.3;
 }
 
 
@@ -183,13 +197,22 @@ ul li:before {
  * indi-components END
  */
 
+.experience-container {
+  margin-top: 30px;
+}
+
+.experience-item:first-of-type {
+  margin-top: 0;
+}
+
 .left-section {
-  width: 480px;
+  width: 460px;
   /* animate on laod from left*/
   animation: fadeInLeft 1s;
 }
 
 .right-section {
+  width: 210px;
   /* add a delay of 1s*/
   animation: fadeInLeft 1s ease-in-out;
 }
